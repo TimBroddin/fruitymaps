@@ -11,7 +11,19 @@ However, you can supply your own `bootstrapUrl`in the configuration object passe
 
 # Why Meteor?
 
-Because their tooling (ES6-support, transpiling, ...) simply beats everything else.
+Because their tooling (ES6-support, React-support, transpiling, ...) simply beats everything else.
+
+# Running locally
+
+* Clone this repo
+* Install Meteor
+		
+		curl https://install.meteor.com | /bin/sh
+		
+* Run
+	
+		meteor --settings settings.json
+
 
 # Mapkit API
 
