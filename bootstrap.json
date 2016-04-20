@@ -1,1 +1,269 @@
-{"region":"default","attributions":[{"attributionId":"1603142","global":[{"name":"TomTom","url":"http://gsp21.ls.apple.com/html/attribution-22.html","logo":"tomtom-2.png","logoChecksum":"a513f557d31c79fcdd616aff514e92cdc750e1b0"},{"name":"TomTom","url":"http://gsp21.ls.apple.com/html/attribution-22.html","logo":"tomtom-2@2x.png","logoChecksum":"51c9e612e3eb129a077c69af51d3e589875eeae9"}],"regional":[{"attributions":[{"name":"iPC","url":"http://gsp21.ls.apple.com/html/attribution-15.html"},{"name":"iPC","url":"http://gsp21.ls.apple.com/html/attribution-19.html"},{"name":"iPC","url":"http://gsp21.ls.apple.com/html/attribution-22.html"}],"regions":[{"minX":218,"minY":102,"minZ":8,"maxX":225,"maxY":104,"maxZ":21},{"minX":221,"minY":98,"minZ":8,"maxX":228,"maxY":101,"maxZ":21},{"minX":226,"minY":91,"minZ":8,"maxX":231,"maxY":97,"maxZ":21}]}]}],"modes":{"hybrid":{"layers":[{"tileSource":"satellite","lowResTileSource":"satellite","allowPrefetchingLowResAtZDiffs":[-8,-6,-3],"maximumOverdrawScale":2},{"tileSource":"hybrid-overlay","allowPrefetchingLowResAtZDiffs":[-8,-6,-3],"maximumOverdrawScale":1}]},"satellite":{"layers":[{"tileSource":"satellite","lowResTileSource":"satellite","allowPrefetchingLowResAtZDiffs":[-8,-6,-3],"maximumOverdrawScale":2}]},"standard":{"layers":[{"tileSource":"standard","lowResTileSource":"standard-base","allowPrefetchingLowResAtZDiffs":[-8,-6,-3],"maximumOverdrawScale":2}]}},"mapEngine":"apple","environment":"MapsWebProd","apiBaseUrl":"https://api.apple-mapkit.com/v1/","analyticsBaseUrl":"https://analyticsws.apple-mapkit.com/an/","tileSources":[{"attributionId":"1603142","tileSource":"standard","supportedSizes":[0,1,2],"supportedResolutions":[1,2],"supportedLanguages":["ar","ca","cs","da","de","el","en","en-AU","en-GB","es","es-MX","fi","fr","fr-CA","he","hi","hr","hu","id","it","ja","ko","ms","nb","nl","pl","pt","pt-PT","ro","ru","sk","sv","th","tr","uk","vi","zh-Hans","zh-Hant","zh-HK"],"minZoomLevel":3,"maxZoomLevel":20,"showPrivacyLink":true,"showTermsOfUseLink":true,"domains":["cdn1.apple-mapkit.com","cdn2.apple-mapkit.com","cdn3.apple-mapkit.com","cdn4.apple-mapkit.com"],"needsLocationShift":false,"path":"/ti/tile?type=tile&style=0&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=jpg&v=1603142&poi={{poi}}&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"},{"attributionId":"1603142","tileSource":"standard-base","supportedSizes":[0,1,2],"supportedResolutions":[1,2],"minZoomLevel":3,"maxZoomLevel":20,"showPrivacyLink":true,"showTermsOfUseLink":true,"domains":["cdn1.apple-mapkit.com","cdn2.apple-mapkit.com","cdn3.apple-mapkit.com","cdn4.apple-mapkit.com"],"needsLocationShift":false,"path":"/ti/tile?type=tile&style=38&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=jpg&v=1603142&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"},{"attributionId":"1603142","tileSource":"hybrid-overlay","supportedSizes":[0,1,2],"supportedResolutions":[1,2],"minZoomLevel":3,"maxZoomLevel":19,"showPrivacyLink":true,"showTermsOfUseLink":true,"domains":["cdn1.apple-mapkit.com","cdn2.apple-mapkit.com","cdn3.apple-mapkit.com","cdn4.apple-mapkit.com"],"needsLocationShift":false,"path":"/ti/tile?type=tile&style=46&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=png&v=1603142&poi={{poi}}&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"},{"attributionId":"1603142","tileSource":"satellite","supportedSizes":[1],"supportedResolutions":[1],"minZoomLevel":3,"maxZoomLevel":19,"showPrivacyLink":true,"showTermsOfUseLink":true,"domains":["sat-cdn1.apple-mapkit.com","sat-cdn2.apple-mapkit.com","sat-cdn3.apple-mapkit.com","sat-cdn4.apple-mapkit.com"],"needsLocationShift":false,"path":"/tile?style=7&size={{tileSizeIndex}}&scale={{resolution}}&z={{z}}&x={{x}}&y={{y}}&v=335&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"}],"acceptLanguage":"en-US,en;q=0.8,en-US;q=0.6,en;q=0.4","ipLocation":{"lat":50.83,"lng":4.33},"countryCode":"US"}
+{
+  "region": "default",
+  "attributions": [
+    {
+      "attributionId": "1603142",
+      "global": [
+        {
+          "name": "TomTom",
+          "url": "http://gsp21.ls.apple.com/html/attribution-22.html",
+          "logo": "tomtom-2.png",
+          "logoChecksum": "a513f557d31c79fcdd616aff514e92cdc750e1b0"
+        },
+        {
+          "name": "TomTom",
+          "url": "http://gsp21.ls.apple.com/html/attribution-22.html",
+          "logo": "tomtom-2@2x.png",
+          "logoChecksum": "51c9e612e3eb129a077c69af51d3e589875eeae9"
+        }
+      ],
+      "regional": [
+        {
+          "attributions": [
+            {
+              "name": "iPC",
+              "url": "http://gsp21.ls.apple.com/html/attribution-15.html"
+            },
+            {
+              "name": "iPC",
+              "url": "http://gsp21.ls.apple.com/html/attribution-19.html"
+            },
+            {
+              "name": "iPC",
+              "url": "http://gsp21.ls.apple.com/html/attribution-22.html"
+            }
+          ],
+          "regions": [
+            {
+              "minX": 218,
+              "minY": 102,
+              "minZ": 8,
+              "maxX": 225,
+              "maxY": 104,
+              "maxZ": 21
+            },
+            {
+              "minX": 221,
+              "minY": 98,
+              "minZ": 8,
+              "maxX": 228,
+              "maxY": 101,
+              "maxZ": 21
+            },
+            {
+              "minX": 226,
+              "minY": 91,
+              "minZ": 8,
+              "maxX": 231,
+              "maxY": 97,
+              "maxZ": 21
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modes": {
+    "hybrid": {
+      "layers": [
+        {
+          "tileSource": "satellite",
+          "lowResTileSource": "satellite",
+          "allowPrefetchingLowResAtZDiffs": [
+            -8,
+            -6,
+            -3
+          ],
+          "maximumOverdrawScale": 2
+        },
+        {
+          "tileSource": "hybrid-overlay",
+          "allowPrefetchingLowResAtZDiffs": [
+            -8,
+            -6,
+            -3
+          ],
+          "maximumOverdrawScale": 1
+        }
+      ]
+    },
+    "satellite": {
+      "layers": [
+        {
+          "tileSource": "satellite",
+          "lowResTileSource": "satellite",
+          "allowPrefetchingLowResAtZDiffs": [
+            -8,
+            -6,
+            -3
+          ],
+          "maximumOverdrawScale": 2
+        }
+      ]
+    },
+    "standard": {
+      "layers": [
+        {
+          "tileSource": "standard",
+          "lowResTileSource": "standard-base",
+          "allowPrefetchingLowResAtZDiffs": [
+            -8,
+            -6,
+            -3
+          ],
+          "maximumOverdrawScale": 2
+        }
+      ]
+    }
+  },
+  "mapEngine": "apple",
+  "environment": "MapsWebProd",
+  "apiBaseUrl": "https://api.apple-mapkit.com/v1/",
+  "analyticsBaseUrl": "https://analyticsws.apple-mapkit.com/an/",
+  "tileSources": [
+    {
+      "attributionId": "1603142",
+      "tileSource": "standard",
+      "supportedSizes": [
+        0,
+        1,
+        2
+      ],
+      "supportedResolutions": [
+        1,
+        2
+      ],
+      "supportedLanguages": [
+        "ar",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "en-AU",
+        "en-GB",
+        "es",
+        "es-MX",
+        "fi",
+        "fr",
+        "fr-CA",
+        "he",
+        "hi",
+        "hr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "ms",
+        "nb",
+        "nl",
+        "pl",
+        "pt",
+        "pt-PT",
+        "ro",
+        "ru",
+        "sk",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "vi",
+        "zh-Hans",
+        "zh-Hant",
+        "zh-HK"
+      ],
+      "minZoomLevel": 3,
+      "maxZoomLevel": 20,
+      "showPrivacyLink": true,
+      "showTermsOfUseLink": true,
+      "domains": [
+        "cdn1.apple-mapkit.com",
+        "cdn2.apple-mapkit.com",
+        "cdn3.apple-mapkit.com",
+        "cdn4.apple-mapkit.com"
+      ],
+      "needsLocationShift": false,
+      "path": "/ti/tile?type=tile&style=0&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=jpg&v=1603142&poi={{poi}}&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"
+    },
+    {
+      "attributionId": "1603142",
+      "tileSource": "standard-base",
+      "supportedSizes": [
+        0,
+        1,
+        2
+      ],
+      "supportedResolutions": [
+        1,
+        2
+      ],
+      "minZoomLevel": 3,
+      "maxZoomLevel": 20,
+      "showPrivacyLink": true,
+      "showTermsOfUseLink": true,
+      "domains": [
+        "cdn1.apple-mapkit.com",
+        "cdn2.apple-mapkit.com",
+        "cdn3.apple-mapkit.com",
+        "cdn4.apple-mapkit.com"
+      ],
+      "needsLocationShift": false,
+      "path": "/ti/tile?type=tile&style=38&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=jpg&v=1603142&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"
+    },
+    {
+      "attributionId": "1603142",
+      "tileSource": "hybrid-overlay",
+      "supportedSizes": [
+        0,
+        1,
+        2
+      ],
+      "supportedResolutions": [
+        1,
+        2
+      ],
+      "minZoomLevel": 3,
+      "maxZoomLevel": 19,
+      "showPrivacyLink": true,
+      "showTermsOfUseLink": true,
+      "domains": [
+        "cdn1.apple-mapkit.com",
+        "cdn2.apple-mapkit.com",
+        "cdn3.apple-mapkit.com",
+        "cdn4.apple-mapkit.com"
+      ],
+      "needsLocationShift": false,
+      "path": "/ti/tile?type=tile&style=46&size={{tileSizeIndex}}&x={{x}}&y={{y}}&z={{z}}&scale={{resolution}}&lang={{lang}}&imageFormat=png&v=1603142&poi={{poi}}&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"
+    },
+    {
+      "attributionId": "1603142",
+      "tileSource": "satellite",
+      "supportedSizes": [
+        1
+      ],
+      "supportedResolutions": [
+        1
+      ],
+      "minZoomLevel": 3,
+      "maxZoomLevel": 19,
+      "showPrivacyLink": true,
+      "showTermsOfUseLink": true,
+      "domains": [
+        "sat-cdn1.apple-mapkit.com",
+        "sat-cdn2.apple-mapkit.com",
+        "sat-cdn3.apple-mapkit.com",
+        "sat-cdn4.apple-mapkit.com"
+      ],
+      "needsLocationShift": false,
+      "path": "/tile?style=7&size={{tileSizeIndex}}&scale={{resolution}}&z={{z}}&x={{x}}&y={{y}}&v=335&vendorkey=38da783db1ef0c2d9f8e783a063ffcdc6a6330fe"
+    }
+  ],
+  "acceptLanguage": "fr-FR,fr;q=0.8,fr-FR;q=0.6,fr;q=0.4",
+  "ipLocation": {
+    "lat": 50.83,
+    "lng": 4.33
+  },
+  "countryCode": "FR"
+}

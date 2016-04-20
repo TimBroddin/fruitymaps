@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fruity Maps - Apple Maps in your browser!</title>
+    <title>Apple Maps in your browser!</title>
     <meta charset="utf-8"/>
-    <meta property="og:url" content="http://fruitymaps.com"/>
+    <meta property="og:url" content="http://fr;datacargo.fr"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Fruity Maps - Apple Maps in your browser!"/>
-    <meta property="og:description" content="Use Apple Maps in your browser!"/>
-    <meta property="og:image" content="http://fruitymaps.com/og.png"/>
+    <meta property="og:title" content="Apple Maps in your browser!"/>
+    <meta property="og:description" content="Apple Maps in your browser!"/>
+    <meta property="og:image" content="http://maps.datacargo.fr/og.png"/>
 
     <script src="https://cdn.apple-mapkit.com/mk/3.0.0/mapkit.js"></script>
     <script>
@@ -15,17 +15,17 @@
 
             mapkit.init({
                 apiKey: "b2af5300a3c2ea9b5d38c782c7d2909dc88d6621",
-                bootstrapUrl: "http://fruitymaps.com/bootstrap.json"
+                bootstrapUrl: "http://maps.datacargo.fr/bootstrap.json"
             });
 
             var map = new mapkit.Map('map');
-            var sanFrancisco = new mapkit.CoordinateRegion(
-                    new mapkit.Coordinate(37.782851, -122.409333),
+            var paris = new mapkit.CoordinateRegion(
+                    new mapkit.Coordinate(48.852993, 2.349857),
                     new mapkit.CoordinateSpan(0.16, 0.16)
             );
 
-            map.setRegionAnimated(sanFrancisco);
-            map.showsUserLocation = false;
+            map.setRegionAnimated(paris);
+            map.showsUserLocation = true;
             map.showsUserLocationControl = true;
 
         });
@@ -45,84 +45,39 @@
 
         #overlay {
             position: absolute;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
-            right: 0px;
-            width: 500px;
+            padding: 0px;
+            background-color: rgba(255, 255, 255, 0.9);
+            left: 50px ;
+            bottom: 10px;
+            width: 310px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey; 
+            text-align: center;          
+            padding: 3px;
             z-index: 2000;
             font-family: "Helvetica Neue", Helvetica;
-            line-height: 1.5;
+            font-size: 11px;
+            line-height: .5;
         }
 
         #overlay a {
             color: black;
         }
 
-        .share {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
 
     </style>
 </head>
 <body>
 <div id="fb-root"></div>
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=934785546636838";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="overlay">
-    <p>Fruity Maps is a proof of concept of using the unpublished Apple Maps API in your browser. I'll add some neat
-        stuff soon. Created by <a href="http://twitter.com/TimBroddin">Tim Broddin</a>.</p>
-
-    <div class="share">
-        <div class="fb-like" data-href="http://fruitymaps.com" data-layout="button_count" data-action="like"
-             data-show-faces="false" data-share="true"></div>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="TimBroddin">Tweet</a>
-
-        <a class="github-button" href="https://github.com/timbroddin/fruitymaps/fork" data-icon="octicon-repo-forked"
-           data-style="mega" data-count-href="/timbroddin/fruitymaps/network"
-           data-count-api="/repos/timbroddin/fruitymaps#forks_count" data-count-aria-label="# forks on GitHub"
-           aria-label="Fork timbroddin/fruitymaps on GitHub">Fork</a>
-    </div>
+    <p>Fruity Maps, created by <a href="http://twitter.com/TimBroddin" target="_blank">Tim Broddin</a>, cleared by <a href="http://twitter.com/ticetnet" target="_blank">Ticetnet</a>.</p>
 
 </div>
 <div id="map"></div>
 
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-76624329-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-
-<script>!function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-    if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + '://platform.twitter.com/widgets.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }
-}(document, 'script', 'twitter-wjs');</script>
 
 </body>
 
