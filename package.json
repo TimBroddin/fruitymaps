@@ -1,0 +1,41 @@
+{
+  "name": "fruitymaps",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "meteor-node-stubs": "^0.2.3",
+    "react": "^15.0.1",
+    "react-addons-pure-render-mixin": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-loader": "^2.4.0",
+    "react-mounter": "^1.2.0",
+    "react-autocomplete": "timbroddin/react-autocomplete",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimBroddin/fruitymaps.git"
+  },
+  "cssModules": {
+    "extensions": [
+      "scss",
+      "sass"
+    ],
+    "specificArchitecture": false,
+    "enableSassCompilation": true
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/TimBroddin/fruitymaps/blob/master/README.md"
+}
