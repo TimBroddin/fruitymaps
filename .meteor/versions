@@ -69,11 +69,11 @@ reactive-var@1.0.9
 reload@1.1.8
 retry@1.0.7
 routepolicy@1.0.10
+seba:minifiers-autoprefixer@1.0.1
 service-configuration@1.0.9
 session@1.1.5
 spacebars@1.0.11
 spacebars-compiler@1.0.11
-standard-minifier-css@1.0.6
 standard-minifier-js@1.0.6
 tmeasday:check-npm-versions@0.2.0
 tracker@1.0.13

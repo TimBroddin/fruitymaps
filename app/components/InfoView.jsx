@@ -23,7 +23,7 @@ export default class InfoView extends React.Component {
                 <p>Reach out on <a href="http://twitter.com/TimBroddin" target="_blank">Twitter</a>, <a href="http://github.com/timbroddin" target="_blank">Github</a>, or by <a href="mailto:tim@wannabes.be">e-mail</a>.</p>
 
 
-                <p><a href="#" className={ styles.closeBtn } onClick={ this.close.bind(this) }>Close</a></p>
+                <p><a href="#" className="closeBtn" onClick={ this.close.bind(this) }>Close</a></p>
             </div>
         );
 

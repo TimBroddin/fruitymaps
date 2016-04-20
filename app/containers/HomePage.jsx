@@ -17,9 +17,8 @@ class HomePage extends React.Component {
 
     componentDidMount() {
         DocHead.loadScript('//platform.twitter.com/widgets.js');
-
         DocHead.loadScript('//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=934785546636838');
-        DocHead.loadScript('//buttons.github.io/buttons.js')
+        DocHead.loadScript('//buttons.github.io/buttons.js');
     }
 
 
