@@ -1,6 +1,5 @@
 import React from 'react';
 import Autocomplete from 'react-autocomplete';
-import styles from '../styles/style.scss';
 import _ from 'underscore';
 
 export default class SearchView extends React.Component {
@@ -39,10 +38,10 @@ export default class SearchView extends React.Component {
 
     renderItem(item, isHighlighted) {
         let primary = item.displayLines[0];
-        let secondary = (item.displayLines[1]) ? <div className={ styles.secondary }>{item.displayLines[1]}</div> : <span />;
+        let secondary = (item.displayLines[1]) ? <div className="secondary">{item.displayLines[1]}</div> : <span />;
         
         return (
-            <div className={ styles.searchResult } key={ item.displayLines.join(', ') }>{primary}{secondary}</div>
+            <div className="searchResult" key={ item.displayLines.join(', ') }>{primary}{secondary}</div>
         )
     }
 
@@ -51,7 +50,7 @@ export default class SearchView extends React.Component {
         wrapperStyle['flex-grow'] = 1;
 
         return (
-            <div className={ styles.searchView }>
+            <div className="searchView">
                 <i className="fa fa-search" aria-hidden="true"></i>
                 <Autocomplete
                     value={this.state.value}
@@ -60,7 +59,6 @@ export default class SearchView extends React.Component {
                     onSelect={this.onSelect.bind(this)}
                     onChange={_.throttle(this.onChange.bind(this), 750)}
                     renderItem={this.renderItem.bind(this)}
-                    wrapperProps={ { className: styles.searchWrapper, id: "jos" }}
                 />
             </div>);
 

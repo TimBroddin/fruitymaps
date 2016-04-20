@@ -12,14 +12,6 @@
     "react-autocomplete": "timbroddin/react-autocomplete",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {
-    "css-loader": "^0.23.1",
-    "node-sass": "^3.4.2",
-    "raw-loader": "^0.5.1",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.12.15"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,8 +21,7 @@
   },
   "cssModules": {
     "extensions": [
-      "scss",
-      "sass"
+      "mss"
     ],
     "specificArchitecture": false,
     "enableSassCompilation": true

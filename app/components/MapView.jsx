@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/style.scss';
 
 export default class MapView extends React.Component {
     componentDidMount() {
@@ -28,8 +27,8 @@ export default class MapView extends React.Component {
 
     render() {
         return (
-            <div className={ styles.mapView }>
-                <div ref="map" className={ styles.mapViewInner }>
+            <div className="mapView">
+                <div ref="map" className="mapViewInner">
 
                 </div>
             </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import {createContainer} from 'meteor/react-meteor-data';
 import {Meteor} from 'meteor/meteor';
-import styles from '../styles/style.scss';
 import MapView from '../components/MapView.jsx';
 import SearchView from '../components/SearchView.jsx';
 import InfoView from '../components/InfoView.jsx';
@@ -36,12 +35,12 @@ class HomePage extends React.Component {
         let mapView = <MapView coordinate={ this.state.coordinate }/>;
 
         return (
-            <div className={ styles.page }>
+            <div className="page">
 
-                <div className={ styles.topBar }>
+                <div className="topBar">
                     <SearchView onSelect={ this.onSearchSelect.bind(this) }/>
 
-                    <div className={ styles.infoButton } onClick={ this.toggleInfo.bind(this) }>
+                    <div className="infoButton" onClick={ this.toggleInfo.bind(this) }>
                         <i className="fa fa-info" aria-hidden="true"></i> About
                     </div>
 
@@ -50,8 +49,8 @@ class HomePage extends React.Component {
 
                 </div>
                 { mapView }
-                <div className={ styles.footer }>
-                    <div className={ styles.version }>version 0.2</div>
+                <div className="footer">
+                    <div className="version">version 0.2</div>
                     <div className="fb-like" data-href="http://fruitymaps.com" data-layout="button_count" data-action="like"
                          data-show-faces="false" data-share="true"></div>
                     <a href="https://twitter.com/share" className="twitter-share-button" data-via="TimBroddin">Tweet</a>

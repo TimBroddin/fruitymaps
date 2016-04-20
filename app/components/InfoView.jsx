@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/style.scss';
 
 
 export default class InfoView extends React.Component {
@@ -12,7 +11,7 @@ export default class InfoView extends React.Component {
 
 
         return (
-            <div className={ styles.infoView }>
+            <div className="infoView">
                 <h1>Fruity Maps</h1>
                 <p>Apple revealed on their <a href="https://developer.apple.com/wwdc/attending/" target="_blank">WWDC-minisite</a> that they are working on a web-version of Apple Maps. I tried using their non-documented API and succeeded.</p>
                 <p>This is a proof-of-concept that I will keep updating as I discover the code.</p>

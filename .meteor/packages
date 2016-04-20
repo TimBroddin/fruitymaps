@@ -18,8 +18,8 @@ underscore
 standard-minifier-css
 standard-minifier-js
 cosmos:browserify
-nathantreid:css-modules
 react-meteor-data
 gadicc:blaze-react-component
 kadira:dochead
 okgrow:analytics
+fourseven:scss
