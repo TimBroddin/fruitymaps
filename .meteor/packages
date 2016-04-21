@@ -20,6 +20,5 @@ cosmos:browserify
 react-meteor-data
 gadicc:blaze-react-component
 kadira:dochead
-okgrow:analytics
 fourseven:scss
 seba:minifiers-autoprefixer

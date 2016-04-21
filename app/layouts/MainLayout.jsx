@@ -17,6 +17,8 @@ export default class MainLayout extends React.Component {
             });
         });
         DocHead.addLink({ rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"});
+
+
     }
 
     render() {
