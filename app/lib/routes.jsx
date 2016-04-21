@@ -22,7 +22,8 @@ FlowRouter.route('/', {
 
         DocHead.setTitle('Fruity Maps - Apple Maps in your browser');
 
-
+        analytics.page('/');
+        
         mount(MainLayout, {
             content: (<HomePage />),
         });
