@@ -22,8 +22,12 @@ FlowRouter.route('/', {
 
         DocHead.setTitle('Fruity Maps - Apple Maps in your browser');
 
-        analytics.page('/');
-        
+        var gaScript = 'https://www.google-analytics.com/analytics.js';
+        DocHead.loadScript(gaScript, function() {
+            ga('create', 'UA-76624329-1', 'auto');
+            ga('send', 'pageview');
+        });
+
         mount(MainLayout, {
             content: (<HomePage />),
         });
